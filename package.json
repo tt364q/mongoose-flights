@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tt364q/mongoose-flights/issues"
   },
-  "homepage": "https://github.com/tt364q/mongoose-flights#readme"
+  "homepage": "https://github.com/tt364q/mongoose-flights#readme",
+  "dependencies": {
+    "mongoose": "^5.10.14"
+  }
 }
