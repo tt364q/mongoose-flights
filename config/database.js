@@ -3,9 +3,10 @@ const mongoose = require('mongoose');
 
 //Create shortcut variable
 const db = mongoose.connection;
+const connectionURI = 'mongodb+srv://admin:Tejano05@cluster0.d7hcz.mongodb.net/mongoose-flights?retryWrites=true&w=majority';
 
 // Connect to DB
-mongoose.connect('mongodb+srv://admin:Tejano05@cluster0.d7hcz.mongodb.net/mongoose-flights?retryWrites=true&w=majority', {
+mongoose.connect(connectionURI, {
     useNewUrlParser: true, 
     useCreateIndex: true,
     useUnifiedTopology: true
